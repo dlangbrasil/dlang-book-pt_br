@@ -1,0 +1,3 @@
+s ~= ", World!";
+import std.stdio;
+writeln(s);
