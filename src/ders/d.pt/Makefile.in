@@ -16,4 +16,4 @@ COZUM_D_KAYNAK= \
   hello_world.cozum.d \
 
 include Makefile.ders.in
-$(eval $(call derse_ozel,d.de,Programmierung_in_D,german))
+$(eval $(call derse_ozel,d.pt,Programando_em_D,portuguese))
