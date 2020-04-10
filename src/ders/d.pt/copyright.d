@@ -3,23 +3,23 @@ Ddoc
 <div class="imprint">
 
 $(P
-<span class="copyright_title">Programming in D, First Edition</span>
+<span class="copyright_title">Programando em D, Primeira Edição</span>
 )
 
 $(BR)
 
 $(P
-D version: $(DVER)
+Versão D: $(DVER)
 )
 
 $(P
-Book revision: $(LINK2 https://bitbucket.org/acehreli/ddili, <xi:include href="pdf_surum.txt" parse="text"/>)
+Data de revisão: $(LINK2 https://bitbucket.org/acehreli/ddili, <xi:include href="pdf_surum.txt" parse="text"/>)
 )
 
 $(BR)
 
 $(P
-The most recent electronic versions of this book are available $(LINK2 http://ddili.org/ders/d.en, online).
+A versão eletrônica mais recente deste livro está disponível $(LINK2 http://ddili.org/ders/d.en, online).
 )
 
 $(BR)
@@ -36,69 +36,69 @@ $(P
 )
 $(BR)
 <p style="margin-left:1em; text-indent:0em">
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+  Este trabalho está licenciado sob a licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional. Para ver uma cópia desta licença, visite http://creativecommons.org/licenses/by-nc-sa/4.0/.
 </p>
 
 $(BR)
 $(BR)
 
 $(P
-Edited by $(LINK2 http://www.luismarques.eu, Luís Marques)
+Editado por $(LINK2 http://www.luismarques.eu, Luís Marques)
 )
 
 $(BR)
 
 $(P
-Cover design by $(LINK2 http://izgiyapici.com, İzgi Yapıcı)
+Design da capa $(LINK2 http://izgiyapici.com, İzgi Yapıcı)
 )
 
 $(BR)
 
 $(P
-Cover illustration by $(LINK2 mailto:sarah@reeceweb.com, Sarah Reece)
+Ilustração da capa $(LINK2 mailto:sarah@reeceweb.com, Sarah Reece)
 )
 
 $(BR)
 
 $(P
-Published by $(LINK2 mailto:acehreli@yahoo.com, Ali Çehreli)
+Publicado por $(LINK2 mailto:acehreli@yahoo.com, Ali Çehreli)
 )
 
 $(BR)
 $(BR)
 
 $(P
-Fonts:
+Fontes:
 )
 <ul class="font_list">
 <li style="font-family: serif;">
-Andada by Carolina Giovagnoli for Huerta Tipográfica
+Andada por Carolina Giovagnoli para Huerta Tipográfica
 </li>
 <li style="font-family: sans-serif;">
-Open Sans by Steve Matteson
+Open Sans por Steve Matteson
 </li>
 <li style="font-family: monospace;">
-DejaVu Mono by DejaVu Fonts
+DejaVu Mono por DejaVu Fonts
 </li>
 </ul>
 
 $(BR)
 $(P
-PDF version is generated with Prince XML
+Versão em PDF foi gerada com Prince XML
 )
 $(P
-Other ebook versions are generated with Calibre
+Outras versões ebook foram geradas com Calibre
 )
 $(BR)
 $(P
-Printed by IngramSpark
+Impresso por IngramSpark
 )
 $(P
 ISBN 978-0-692-52957-7
 )
 $(BR)
 $(P
-or by CreateSpace
+ou por CreateSpace
 )
 $(P
 ISBN 978-1515074601
@@ -107,8 +107,8 @@ ISBN 978-1515074601
 </div>
 
 Macros:
-        SUBTITLE=Copyleft
+        SUBTITLE =Copyleft
 
-        DESCRIPTION=The copyleft page of Programming in D
+        DESCRIPTION =A página copyleft de Programando em D
 
-        KEYWORDS=copyright
+        KEYWORDS =Direito Autoral
