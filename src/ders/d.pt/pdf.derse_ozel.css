@@ -1,9 +1,9 @@
 a.xref:after {
-  content: " (page " target-counter(attr(href, url), page) ")";
+  content: " (página " target-counter(attr(href, url), page) ")";
 }
 
 div.cozum_link_cok a.xref {
-  content: "The solutions are on page " target-counter(attr(href, url), page) ".";
+  content: "As soluções estão na página " target-counter(attr(href, url), page) ".";
   font-style:italic;
 }
 
@@ -12,7 +12,7 @@ div.cozum_link_cok a.xref:after {
 }
 
 div.cozum_link_tek a.xref {
-  content: "The solution is on page " target-counter(attr(href, url), page) ".";
+  content: "A solução está na página " target-counter(attr(href, url), page) ".";
   font-style:italic;
 }
 
