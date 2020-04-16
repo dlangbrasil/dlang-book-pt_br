@@ -396,14 +396,16 @@ FileStatus testCodes(string codeCompiler,
 
 static const string[string] comments;
 static this() {
-    comments = [ "english" : "// ← compilation ERROR",
-                 "turkish" : "// ← derleme HATASI" ];
+    comments = [ "english" : "// ← compilation ERRORpp",
+                 "turkish" : "// ← derleme HATASI",
+                 "portuguese" : "// ← ERRO de compilação"];
 }
 
 static const string[string] notices;
 static this() {
     notices = [ "english" : "NOTE: This program is expected to fail compilation.",
-                "turkish" : "NOT: Bu program derleme hatasına neden olur." ];
+                "turkish" : "NOT: Bu program derleme hatasına neden olur.",
+                "portuguese" : "NOTA: Espera-se que este programa falhe na compilação."];
 }
 
 /* Tests the provided program. */
@@ -422,6 +424,8 @@ TestOutcome testProgram(string codeCompiler,
         postFileName = postFileName.replace(".cozum.", ".solution.");
     } else if (alphabetName == "turkish") {
         // Nothing to do
+    } else if (alphabetName == "portuguese") {
+        postFileName = postFileName.replace(".cozum.", ".solucao.");
     } else {
         throw new Exception("Unsupported alphabet: %s", alphabetName);
     }
@@ -488,7 +492,7 @@ TestOutcome testProgram(string codeCompiler,
                            codeCompiler, postFileName.dirName, postFileName, preFileName);
     writeln("Executing ", convertCommand);
     auto ddocResult = executeShell(convertCommand);
-
+    
     if (ddocResult.status) {
         return TestOutcome(TestResult.failed,
                            ddocResult.output,
@@ -497,7 +501,7 @@ TestOutcome testProgram(string codeCompiler,
 
     removeLeadingTrailingEmptyLines(postFileName);
     remove(preFileName);
-
+    
     const compileCommand = format("%s -J. -unittest -c -de -w -debug -o- %s",
                                   codeCompiler, postFileName);
     writeln("Executing ", compileCommand);

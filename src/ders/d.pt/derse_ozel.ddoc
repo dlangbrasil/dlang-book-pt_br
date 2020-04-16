@@ -35,13 +35,13 @@ ALTBASLIK = <h5 style="margin-bottom:0px; padding-bottom: 0px; margin-top: 5px; 
 
 MINI_SOZLUK=
 
-GERI_METIN=Prev
-ILERI_METIN=Next
-PROBLEM_METIN=Exercise
-PROBLEM_COK_METIN=Exercises
-PROBLEM_TEK_COZUMSUZ_METIN=the solution will be posted later...
-PROBLEM_COK_COZUMSUZ_METIN=the solutions will be posted later...
-COZUM_METIN=the solution
-COZUMLER_METIN=the solutions
+GERI_METIN=ANT
+ILERI_METIN=PRÓX
+PROBLEM_METIN=Exercício
+PROBLEM_COK_METIN=Exercícios
+PROBLEM_TEK_COZUMSUZ_METIN=a solução será publicada mais tarde...
+PROBLEM_COK_COZUMSUZ_METIN=as soluções serão publicadas mais tarde...
+COZUM_METIN=a solução
+COZUMLER_METIN=as soluções
 
-DERLEME_HATASI_METIN=compilation ERROR
+DERLEME_HATASI_METIN=ERRO de compilação

@@ -7,8 +7,8 @@ $(INDEX_ENTRIES)
 )
 
 Macros:
-        SUBTITLE=Index Section
+        SUBTITLE=Índice
 
-        DESCRIPTION=The index section of the book Programming in D
+        DESCRIPTION=O índice do Livro Programando em D
 
         KEYWORDS=index
