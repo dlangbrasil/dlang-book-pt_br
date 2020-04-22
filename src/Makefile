@@ -142,8 +142,7 @@ include ders/d.pt/Makefile.in
 BUTUN_D_HTML=$(KAYNAKLAR:%.d=$(CIKIS)/%.html)
 BUTUN_HTML=$(BUTUN_D_HTML)
 
-validate_macro = if [ ! $(echo $(grep -L -w $(2) $(1))) ]; then true; else (echo $(1):1000: $(2) is not defined && true); fi
-#grep -L -w $(2) $(1) || (echo $(1):1000: $(2) is not defined && true)
+validate_macro = grep -l -w $(2) $(1) || (echo $(1):1000: $(2) is not defined && false)
 
 define validate_maybe_index_macro
 if [ "$(strip $(2))" = "index.html" ]; then \
