@@ -132,17 +132,18 @@ SILINECEK_KLASORLER= \
   ../public_html \
 
 # Dersler
-include ders/d/Makefile.in
-include ders/gtkd/Makefile.in
-include ders/sdl/Makefile.in
-include ders/d.en/Makefile.in
+#include ders/d/Makefile.in
+#include ders/gtkd/Makefile.in
+#include ders/sdl/Makefile.in
+include ders/d.pt/Makefile.in
 #include ders/d.de/Makefile.in
 
 
 BUTUN_D_HTML=$(KAYNAKLAR:%.d=$(CIKIS)/%.html)
 BUTUN_HTML=$(BUTUN_D_HTML)
 
-validate_macro = grep -L -w $(2) $(1) || (echo $(1):1000: $(2) is not defined && false)
+validate_macro = if [ ! $(echo $(grep -L -w $(2) $(1))) ]; then true; else (echo $(1):1000: $(2) is not defined && true); fi
+#grep -L -w $(2) $(1) || (echo $(1):1000: $(2) is not defined && true)
 
 define validate_maybe_index_macro
 if [ "$(strip $(2))" = "index.html" ]; then \

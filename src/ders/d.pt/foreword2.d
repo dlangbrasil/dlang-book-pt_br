@@ -2,10 +2,10 @@ Ddoc
 
 $(DIV_CLASS foreword,
 
-$(DERS_BOLUMU_CLASS foreword, Foreword<span class="foreword_by"> by Andrei Alexandrescu</span>)
+$(DERS_BOLUMU_CLASS foreword, Prefácio<span class="foreword_by"> por Andrei Alexandrescu</span>)
 
 $(P
-Those of us who know Ali might notice his book on D is imbued with its author's personality: straightforward, patient, and nice without being pandering.
+Aqueles de nós que conhecem Ali, podem notar que seu livro sobre D está imbuído com sua personalidade: direto, paciente, e agradável sem ser complacente.
 )
 
 $(P

@@ -19,6 +19,77 @@ interface Alphabet
     dchar toUpper(dchar d);
 }
 
+class PortugueseAlphabet : Alphabet
+{
+    static const lowerLetters = "aáãâàbcçdeéêfghiíjklmnoóôõpqrstuúvwxyz"d;
+    static const upperLetters = "AÁÃÂÀBCÇDEÉÊFGHIÍJKLMNOÓÔÕPQRSTUÚVWXYZ"d;
+    static assert (lowerLetters.length == upperLetters.length);
+
+    int[dchar] order;
+    dchar[dchar] uppers;
+    dchar[dchar] lowers;
+
+    this()
+    {
+        foreach (i, dchar c; lowerLetters)
+            order[c] = i.to!int;
+
+        foreach (l, u; zip(lowerLetters, upperLetters))
+        {
+            uppers[l] = u;
+            lowers[u] = l;
+        }
+    }
+
+    int orderCode(dchar d)
+    {
+        const o = d in order;
+        return (o ? *o : d);
+    }
+
+    bool is_less(dchar lhs, dchar rhs)
+    {
+        return orderCode(lhs) < orderCode(rhs);
+    }
+
+    bool is_less(string lhs, string rhs)
+    {
+        foreach (l, r; zip(lhs, rhs))
+        {
+            const lo = orderCode(l);
+            const ro = orderCode(r);
+
+            if (lo < ro)
+                return true;
+        }
+
+        return lhs.length < rhs.length;
+    }
+
+    bool is_greater(dchar lhs, dchar rhs)
+    {
+        return orderCode(lhs) > orderCode(rhs);
+    }
+
+    string toLower(string s)
+    {
+        dchar value(dchar src)
+        {
+            auto result = src in lowers;
+            return (result ? *result : std.uni.toLower(src));
+        }
+
+        return s.map!value.to!string;
+    }
+
+    dchar toUpper(dchar d)
+    {
+        const u = d in uppers;
+        return (u ? *u : std.uni.toUpper(d));
+    }
+}
+
+
 class EnglishAlphabet : Alphabet
 {
     bool is_less(dchar lhs, dchar rhs)
@@ -145,6 +216,10 @@ Alphabet makeAlphabet(string alphabetName)
 
     case "german":
         result = new EnglishAlphabet();
+        break;
+
+    case "portuguese":
+        result = new PortugueseAlphabet();
         break;
 
     default:
