@@ -7,7 +7,7 @@ CIKIS?=../public_html
 TEST_DEFS?=
 
 # We don't have support for ddoc changes that came in later versions
-DDOC_VERSION=2.074.0
+DDOC_VERSION=2.091.0
 
 # This is the version that the book is up to date with
 CODE_VERSION=$(shell cat dversion.ddoc | awk -F'=' '{print $$2}')
