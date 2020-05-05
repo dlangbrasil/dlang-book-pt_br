@@ -1,22 +1,21 @@
-This directory contains most of the code samples that appear in the book
-"Programming in D":
+Esse diretório contém grande parte de amostras de código que aparece no livro
+"Programming in D (Programando em D)" :
 
-  http://ddili.org/ders/d.en/
+  http://ddili.org/ders/d.pt/
 
-The names of the sample programs are in chapterName.N.d format. The programs
-are extracted from the chapter files and named automatically.
+Os nomes dos programas amostra estão em nomeCapitulo.N.d. Os programas são
+extraídos a partir dos arquivos do capítulo correspondente automaticamente.
 
-  chapterName - The name of the chapter file without the .html extension, from
-                which the program was extracted (e.g. hello_world for
-                hello_world.html)
+  nomeCapitulo - O nome do arquivo sem a extensão .html, de onde o arquivos
+                 foi extraído (e.g. hello_world para hello_world.html)
 
-  N           - The order in which the program was extracted from that chapter
-                file (e.g. 1)
+  N           -  A ordem em que o programa foi extraído a partir do arquivo
+                 do capítulo (e.g. 1)
 
-For example, hello_world.1.d is the first program that was extracted from
+Por exeplo, hello_world.1.d é o primeiro programa a ser extraído de
 hello_world.html.
 
-The word 'cozum' (transliteration of Turkish "çözüm") that appears in some of
-the chapter file names has been replaced with its English translation
-(solution). Accordingly, unit_testing.solution.2.d is the second program that
-was extracted from unit_testing.cozum.html.
+A palavra 'cozum' (transliteração da palavra Turka "çözüm") que aparece em
+alguns dos nomes de capítulos foi substituída em seu equivalente na língua
+portuguesa. Em concordância, unit_testing.solution.2.d é o segundo programa
+a ser extraído a partir de unit_testing.solution.2.html.
