@@ -2,34 +2,34 @@ Ddoc
 
 $(DIV_CLASS preface,
 
-$(DERS_BOLUMU_CLASS preface, Preface)
+$(DERS_BOLUMU_CLASS preface, Prefácio)
 
 $(P
-D is a multi-paradigm system programming language that combines a wide range of powerful programming concepts from the lowest to the highest levels. It emphasizes memory safety, program correctness, and pragmatism.
+D é uma linguagem de programação de sistemas multi paradigma que combina uma vasta gama de poderosos conceitos de programação, do nível mais baixo ao mais alto. Ela enfatiza a segurança da memória, correção do programa e o pragmatísmo.
 )
 
 $(P
-The main aim of this book is to teach D to readers who are new to computer programming. Although having experience in other programming languages is certainly helpful, this book starts from the basics.
+O principal objetivo deste livro é ensinar D aos leitores que são novos na programação de computadores. Embora ter experiência em outras linguagens de programação seja certamente útil, este livro começa do básico.
 )
 
 $(P
-In order for this book to be useful, you will need an environment to write, compile, and run your D programs. This $(I development environment) must include at least a D compiler and a text editor. We will learn how to install a compiler and how to compile programs in the next chapter.
+Para que este livro seja útil, você irá precisar de um ambiente para escrever, compilar, e executar seus programas em D. Esse $(I ambiente de desenvolvimento) deve incluir ao menos um compilador D e um editor de texto. Nós iremos aprender como instalar um compilador e como compilar programas no próximo capítulo.
 )
 
 $(P
-Each chapter is based on the contents of the previous ones, introducing as few new concepts as possible. I recommend that you read the book in linear fashion, without skipping chapters. Although this book was written with beginners in mind, it covers almost all features of D. More experienced programmers can use the book as a D language reference by starting from the index section.
+Cada capítulo é baseado no conteúdo dos anteriores, apresentando o mínimo possível de novos conceitos. Eu recomendo que vocẽ leia o livro de maneira linear, sem pular capítulos. Embora este livro tenha sido escrito com os iniciantes em mente, ele abrange quase todas os recursos do D. Programadores mais experientes podem usar o livro como uma referência da Linguagem D, iniciando na seção de índice.
 )
 
 $(P
-Some chapters include exercises and their solutions so that you can write small programs and compare your methods to mine.
+Alguns capítulos incluem exercícios e suas soluções, para que você possa escrever pequenos programas e comparar seus métodos aos meus.
 )
 
 $(P
-Computer programming is a satisfying craft that involves continuously discovering and learning new tools, techniques, and concepts. I am sure you will enjoy programming in D at least as much as I do. Learning to program is easier and more fun when shared with others. Take advantage of $(LINK2 http://forum.dlang.org/group/digitalmars.D.learn/, the D.learn newsgroup) to follow discussions and to ask and answer questions.
+A programação de computadores é um ofício satisfatório que envolve descobrir e aprender contínuamente novas ferramentas, técnicas e conceitos. Tenho certeza que você irá gostar de programar em D ao menos tanto quanto eu. Aprender a programar é fácil e mais divertido quando compartilhado com outras pessoas. Aproveite o $(LINK2 http://forum.dlang.org/group/digitalmars.D.learn/, the D.learn newsgroup) para acompanhar discussões e fazer e responder perguntas.
 )
 
 $(P
-This book is available in other languages as well, including $(LINK2 http://ddili.org/ders/d/, Turkish) and $(LINK2 http://dlang.unix.cat/programmer-en-d/, French).
+Este livro também está disponível em $(LINK2 http://ddili.org/ders/d/, Turkish).
 )
 
 $(H5_FRONTMATTER Acknowledgments)
