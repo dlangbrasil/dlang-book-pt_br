@@ -2,69 +2,79 @@ Ddoc
 
 $(DIV_CLASS preface,
 
-$(DERS_BOLUMU_CLASS preface, Preface)
+$(DERS_BOLUMU_CLASS preface, Prefácio)
 
 $(P
-D is a multi-paradigm system programming language that combines a wide range of powerful programming concepts from the lowest to the highest levels. It emphasizes memory safety, program correctness, and pragmatism.
+D é uma linguagem de programação de sistemas multi paradigma que combina uma vasta gama de poderosos conceitos de programação, do nível mais baixo ao mais alto. Ela enfatiza a segurança da memória, correção do programa e o pragmatísmo.
 )
 
 $(P
-The main aim of this book is to teach D to readers who are new to computer programming. Although having experience in other programming languages is certainly helpful, this book starts from the basics.
+O principal objetivo deste livro é ensinar D aos leitores que são novos na programação de computadores. Embora ter experiência em outras linguagens de programação seja certamente útil, este livro começa do básico.
 )
 
 $(P
-In order for this book to be useful, you will need an environment to write, compile, and run your D programs. This $(I development environment) must include at least a D compiler and a text editor. We will learn how to install a compiler and how to compile programs in the next chapter.
+Para que este livro seja útil, você irá precisar de um ambiente para escrever, compilar, e executar seus programas em D. Esse $(I ambiente de desenvolvimento) deve incluir ao menos um compilador D e um editor de texto. Nós iremos aprender como instalar um compilador e como compilar programas no próximo capítulo.
 )
 
 $(P
-Each chapter is based on the contents of the previous ones, introducing as few new concepts as possible. I recommend that you read the book in linear fashion, without skipping chapters. Although this book was written with beginners in mind, it covers almost all features of D. More experienced programmers can use the book as a D language reference by starting from the index section.
+Cada capítulo é baseado no conteúdo dos anteriores, apresentando o mínimo possível de novos conceitos. Eu recomendo que vocẽ leia o livro de maneira linear, sem pular capítulos. Embora este livro tenha sido escrito com os iniciantes em mente, ele abrange quase todas os recursos do D. Programadores mais experientes podem usar o livro como uma referência da Linguagem D, iniciando na seção de índice.
 )
 
 $(P
-Some chapters include exercises and their solutions so that you can write small programs and compare your methods to mine.
+Alguns capítulos incluem exercícios e suas soluções, para que você possa escrever pequenos programas e comparar seus métodos aos meus.
 )
 
 $(P
-Computer programming is a satisfying craft that involves continuously discovering and learning new tools, techniques, and concepts. I am sure you will enjoy programming in D at least as much as I do. Learning to program is easier and more fun when shared with others. Take advantage of $(LINK2 http://forum.dlang.org/group/digitalmars.D.learn/, the D.learn newsgroup) to follow discussions and to ask and answer questions.
+A programação de computadores é um ofício satisfatório que envolve descobrir e aprender contínuamente novas ferramentas, técnicas e conceitos. Tenho certeza que você irá gostar de programar em D ao menos tanto quanto eu. Aprender a programar é fácil e mais divertido quando compartilhado com outras pessoas. Aproveite o $(LINK2 http://forum.dlang.org/group/digitalmars.D.learn/, the D.learn newsgroup) para acompanhar discussões e fazer e responder perguntas.
 )
 
 $(P
-This book is available in other languages as well, including $(LINK2 http://ddili.org/ders/d/, Turkish) and $(LINK2 http://dlang.unix.cat/programmer-en-d/, French).
+Este livro também está disponível em $(LINK2 http://ddili.org/ders/d/, Turkish).
 )
 
-$(H5_FRONTMATTER Acknowledgments)
+$(H5_FRONTMATTER Agradecimentos)
 
 $(P
-I am indebted to the following people who have been instrumental during the evolution of this book:
-)
-
-$(P
-Mert Ataol, Zafer Çelenk, Salih Dinçer, Can Alpay Çiftçi, Faruk Erdem Öncel, Muhammet Aydın (aka Mengü Kağan), Ergin Güney, Jordi Sayol, David Herberth, Andre Tampubolon, Gour-Gadadhara Dasa, Raphaël Jakse, Andrej Mitrović, Johannes Pfau, Jerome Sniatecki, Jason Adams, Ali H. Çalışkan, Paul Jurczak, Brian Rogoff, Михаил Страшун (Mihails Strasuns), Joseph Rushton Wakeling, Tove, Hugo Florentino, Satya Pothamsetti, Luís Marques, Christoph Wendler, Daniel Nielsen, Ketmar Dark, Pavel Lukin, Jonas Fiala, Norman Hardy, Rich Morin, Douglas Foster, Paul Robinson, Sean Garratt, Stéphane Goujet, Shammah Chancellor, Steven Schveighoffer, Robbin Carlson, Bubnenkov Dmitry Ivanovich, Bastiaan Veelo, Stéphane Goujet, Olivier Pisano, Dave Yost, Tomasz Miazek-Mioduszewski, Gerard Vreeswijk, Justin Whear, Gerald Jansen, and Sylvain Gault.
+Sou grato às seguintes pessoas que foram fundamentais durante a evolução deste livro:
 )
 
 $(P
-Thanks especially to Luís Marques who, through his hard work, improved every chapter of the book. If you find any part of this book useful, it is likely due to his diligent editing.
+Mert Ataol, Zafer Çelenk, Salih Dinçer, Can Alpay Çiftçi, Faruk Erdem Öncel, Muhammet Aydın (aka Mengü Kağan), Ergin Güney, Jordi Sayol, David Herberth, Andre Tampubolon, Gour-Gadadhara Dasa, Raphaël Jakse, Andrej Mitrović, Johannes Pfau, Jerome Sniatecki, Jason Adams, Ali H. Çalışkan, Paul Jurczak, Brian Rogoff, Михаил Страшун (Mihails Strasuns), Joseph Rushton Wakeling, Tove, Hugo Florentino, Satya Pothamsetti, Luís Marques, Christoph Wendler, Daniel Nielsen, Ketmar Dark, Pavel Lukin, Jonas Fiala, Norman Hardy, Rich Morin, Douglas Foster, Paul Robinson, Sean Garratt, Stéphane Goujet, Shammah Chancellor, Steven Schveighoffer, Robbin Carlson, Bubnenkov Dmitry Ivanovich, Bastiaan Veelo, Olivier Pisano, Dave Yost, Tomasz Miazek-Mioduszewski, Gerard Vreeswijk, Justin Whear, Gerald Jansen, Sylvain Gault, Shriramana Sharma, Jay Norwood, Henri Menke, Chen Lejia, Vladimir Panteleev, Martin Tschierschke, ag0aep6g, Andrew Edwards, Steve White, Mark Schwarzmann, Thibaut Charles, Richard Palme, Don Grant, Goksan Kadir e Aleksandr Treyger.
 )
 
 $(P
-Thanks to Luís Marques, Steven Schveighoffer, Andrej Mitrović, Robbin Carlson, and Ergin Güney for their suggestions that elevated this book from my Inglish to English.
+Agradeço especialmente a Luís Marques que, com seu trabalho duro, melhorou todos os capítulo do livro. Se você achar alguma parte deste livro útil, provavelmente é devido à sua edição diligente.
 )
 
 $(P
-I am grateful to the entire D community for keeping my enthusiasm and motivation high. D has an amazing community of tireless individuals like bearophile and Kenji Hara.
+Agradecimentos a Luís Marques, Steven Schveighoffer, Andrej Mitrović, Robbin Carlson, Ergin Güney e Andrew Edwards por suas sugestões que elevaram este livro do meu inglês para Inglês.
 )
 
 $(P
-Ebru, Damla, and Derin, thank you for being so patient and supportive while I was lost writing these chapters.
+Sou grato a toda comunidade D por manter alto meu entusiasmo e motiviação. D tem uma comunidade incrível de indivíduos incansáveis como bearophile e Kenji Hara.
+)
+
+$(P
+Ebru, Damla e Derin obrigado por serem tão pacientes e solidários enquanto eu estava perdido escrevendo esses capítulos.
 $(BR)
 $(BR)
 Ali Çehreli$(BR)
-Mountain View, $(I November 2015)
+Mountain View, $(I Maio 2017)
+)
+
+$(P
+$(BR)
+$(BR)
+Esta revisão do livro contém muitas $(LINK2 https://bitbucket.org/acehreli/ddili/commits/all, correções, melhorias), e um novo capítulo: $(LINK2 /ders/d.en/static_foreach.html, $(C static foreach)).
+$(BR)
+$(BR)
+Ali Çehreli$(BR)
+Mountain View, $(I Fevereiro 2019)
 )
 
 )
 
 Macros:
-    SUBTITLE = Preface
+    SUBTITLE = Prefácio
     DESCRIPTION=
     KEYWORDS=
