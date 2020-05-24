@@ -32,39 +32,49 @@ $(P
 Este livro também está disponível em $(LINK2 http://ddili.org/ders/d/, Turkish).
 )
 
-$(H5_FRONTMATTER Acknowledgments)
+$(H5_FRONTMATTER Agradecimentos)
 
 $(P
-I am indebted to the following people who have been instrumental during the evolution of this book:
+Sou grato às seguintes pessoas que foram fundamentais durante a evolução deste livro:
 )
 
 $(P
-Mert Ataol, Zafer Çelenk, Salih Dinçer, Can Alpay Çiftçi, Faruk Erdem Öncel, Muhammet Aydın (aka Mengü Kağan), Ergin Güney, Jordi Sayol, David Herberth, Andre Tampubolon, Gour-Gadadhara Dasa, Raphaël Jakse, Andrej Mitrović, Johannes Pfau, Jerome Sniatecki, Jason Adams, Ali H. Çalışkan, Paul Jurczak, Brian Rogoff, Михаил Страшун (Mihails Strasuns), Joseph Rushton Wakeling, Tove, Hugo Florentino, Satya Pothamsetti, Luís Marques, Christoph Wendler, Daniel Nielsen, Ketmar Dark, Pavel Lukin, Jonas Fiala, Norman Hardy, Rich Morin, Douglas Foster, Paul Robinson, Sean Garratt, Stéphane Goujet, Shammah Chancellor, Steven Schveighoffer, Robbin Carlson, Bubnenkov Dmitry Ivanovich, Bastiaan Veelo, Stéphane Goujet, Olivier Pisano, Dave Yost, Tomasz Miazek-Mioduszewski, Gerard Vreeswijk, Justin Whear, Gerald Jansen, and Sylvain Gault.
+Mert Ataol, Zafer Çelenk, Salih Dinçer, Can Alpay Çiftçi, Faruk Erdem Öncel, Muhammet Aydın (aka Mengü Kağan), Ergin Güney, Jordi Sayol, David Herberth, Andre Tampubolon, Gour-Gadadhara Dasa, Raphaël Jakse, Andrej Mitrović, Johannes Pfau, Jerome Sniatecki, Jason Adams, Ali H. Çalışkan, Paul Jurczak, Brian Rogoff, Михаил Страшун (Mihails Strasuns), Joseph Rushton Wakeling, Tove, Hugo Florentino, Satya Pothamsetti, Luís Marques, Christoph Wendler, Daniel Nielsen, Ketmar Dark, Pavel Lukin, Jonas Fiala, Norman Hardy, Rich Morin, Douglas Foster, Paul Robinson, Sean Garratt, Stéphane Goujet, Shammah Chancellor, Steven Schveighoffer, Robbin Carlson, Bubnenkov Dmitry Ivanovich, Bastiaan Veelo, Olivier Pisano, Dave Yost, Tomasz Miazek-Mioduszewski, Gerard Vreeswijk, Justin Whear, Gerald Jansen, Sylvain Gault, Shriramana Sharma, Jay Norwood, Henri Menke, Chen Lejia, Vladimir Panteleev, Martin Tschierschke, ag0aep6g, Andrew Edwards, Steve White, Mark Schwarzmann, Thibaut Charles, Richard Palme, Don Grant, Goksan Kadir e Aleksandr Treyger.
 )
 
 $(P
-Thanks especially to Luís Marques who, through his hard work, improved every chapter of the book. If you find any part of this book useful, it is likely due to his diligent editing.
+Agradeço especialmente a Luís Marques que, com seu trabalho duro, melhorou todos os capítulo do livro. Se você achar alguma parte deste livro útil, provavelmente é devido à sua edição diligente.
 )
 
 $(P
-Thanks to Luís Marques, Steven Schveighoffer, Andrej Mitrović, Robbin Carlson, and Ergin Güney for their suggestions that elevated this book from my Inglish to English.
+Agradecimentos a Luís Marques, Steven Schveighoffer, Andrej Mitrović, Robbin Carlson, Ergin Güney e Andrew Edwards por suas sugestões que elevaram este livro do meu inglês para Inglês.
 )
 
 $(P
-I am grateful to the entire D community for keeping my enthusiasm and motivation high. D has an amazing community of tireless individuals like bearophile and Kenji Hara.
+Sou grato a toda comunidade D por manter alto meu entusiasmo e motiviação. D tem uma comunidade incrível de indivíduos incansáveis como bearophile e Kenji Hara.
 )
 
 $(P
-Ebru, Damla, and Derin, thank you for being so patient and supportive while I was lost writing these chapters.
+Ebru, Damla e Derin obrigado por serem tão pacientes e solidários enquanto eu estava perdido escrevendo esses capítulos.
 $(BR)
 $(BR)
 Ali Çehreli$(BR)
-Mountain View, $(I November 2015)
+Mountain View, $(I Maio 2017)
+)
+
+$(P
+$(BR)
+$(BR)
+Esta revisão do livro contém muitas $(LINK2 https://bitbucket.org/acehreli/ddili/commits/all, correções, melhorias), e um novo capítulo: $(LINK2 /ders/d.en/static_foreach.html, $(C static foreach)).
+$(BR)
+$(BR)
+Ali Çehreli$(BR)
+Mountain View, $(I Fevereiro 2019)
 )
 
 )
 
 Macros:
-    SUBTITLE = Preface
+    SUBTITLE = Prefácio
     DESCRIPTION=
     KEYWORDS=
