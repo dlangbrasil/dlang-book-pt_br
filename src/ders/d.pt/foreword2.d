@@ -5,36 +5,36 @@ $(DIV_CLASS foreword,
 $(DERS_BOLUMU_CLASS foreword, Prefácio<span class="foreword_by"> por Andrei Alexandrescu</span>)
 
 $(P
-Aqueles de nós que conhecem Ali, podem notar que seu livro sobre D está imbuído com sua personalidade: direto, paciente, e agradável sem ser complacente.
+Quem conhece Ali pode notar que seu livro sobre D está imbuido da personalidade de seu autor: franco, paciente e agradável sem ser conivente.
 )
 
 $(P
-There is purpose in every sentence, and with each, a step forward is being made; not too fast, and not too slow. "Note that $(C opApply()) itself is implemented by a $(C foreach) loop. As a result, the $(C foreach) inside $(C main()) ends up making indirect use of a $(C foreach) over the $(C points) member." And so it goes, in just as many words as needed. And in the right order, too; Ali does an admirable job at presenting language concepts – which especially to a beginner overwhelmingly come "in parallel" – in a sequential manner.
+Há um propósito em cada frase e, a cada, um passo adiante está sendo feito; nem muito rápido nem muito devagar. "Observe que o próprio $(C opApply()) é implementado por um loop $(C foreach). Como resultado, o $(C foreach) dentro de $(C main()) acaba fazendo uso indireto de um $(C foreach) sobre o membro $(C points)." E assim por diante, em quantas palavras forem necessárias. E na ordem correta também; Ali faz um trabalho admirável em apresentar conceitos de linguagem – que, especialmente para um iniciante, vêm esmagadoramente "em paralelo" – de uma maneira sequencial.
 )
 
 $(P
-But there's another thing I like most about "Programming in D": it's a good book for learning programming $(I in general). See, a good introductory book on Haskell implicitly teaches functional programming along the way; one on C would come with systems programming notions in tow; one on Python with scripting, and so on. What would, then, a good introductory text to D teach in subtext? At best, Programming with a capital P.
+Mas há outra coisa que eu gosto mais sobre "Programando em D": é um bom livro para aprender programação $(I no geral). Veja, um bom livro introdutório em Haskell implicitamente ensina programação funcional ao longo do caminho, um em C viria com noções de programação de sistemas, um em Python com scripts e assim por diante. O que seria, então, um bom texto introdutório para o que D ensina? Na melhor das hipóteses, Programação com letra P maiúscula.
 )
 
 $(P
-D fosters a "use the right tool for the job" attitude, and allows its user to tap into a wide range of programming techniques, without throwing too many idiosyncrasies in the way. The most fun way to approach coding in D is with an open mind, because for each design that starts to get stilted there is opportunity to mold it into the right design choosing a different implementation, approach, or paradigm altogether. To best choose what's most fitting, the engineer must know the gamut of what's possible – and "Programming in D" is a great way to equip one's intellect with that knowledge. Internalizing it helps not only writing good code in D, but writing good code, period.
+D promove uma atitude "use a ferramenta correta para o trabalho", e permite que o usuário use uma ampla gama de técnicas de programação, sem jogar muitas idiossincrasias pelo caminho. A maneira mais divertida de abordar a codificação em D é com a mente aberta, porque a cada projeto que começa ficar enfadonho, há uma oportunidade para molda-lo no design correto, escolhendo uma implementação, abordagem ou paradigma diferente. Para melhor escolher o que é mais adequado, o engenheiro deve conhecer toda a gama de possibilidades – e "Programando em D" é uma ótima maneira de equipar o intelecto com esse conhecimento. A sua internalização ajuda não apenas a escrever um bom código em D, mas a escrever bom código, ponto final.
 )
 
 $(P
-There's good tactical advice, too, to complement the teaching of programming and language concepts. Timeless teaching on avoiding code duplication, choosing good names, aiming for good decomposition, and more – it's all there, quick-and-dirty hacks iteratively annealed into robust solutions, just as they should in normal practice. Instead of falling for getting things done quickly, "Programming in D" focuses on getting things done properly, to the lasting benefit of its reader.
+Também há bons conselhos táticos para complementar o ensino de programação e conceitos de linguagem. Ensino atemporal sobre como evitar duplicação de código, escolher bons nomes, buscar uma boa decomposição e muito mais - está tudo lá, hacks rápidos interativamente interligados a soluções robustas, como deveriam ser na prática normal. Em vez de se apaixonar por fazer as coisas rapidamente, "Programando em D" se concentra em fazer as coisas corretamente, para o benefício duradouro de seu leitor.
 )
 
 $(P
-I've long suspected D is a good first programming language to learn. It exposes its user to a variety of concepts – systems, functional, object oriented, generic, generative – candidly and without pretense. And so does Ali's book, which seems to me an excellent realization of that opportunity.
+Suspeito há muito tempo que D é uma boa primeira linguagem de programação para aprender. Ele expõe ao usuário a uma variedade de conceitos – sistemas, funcionais, orientados a objetos, genéricos, generativos – com franqueza e sem pretensão. E o mesmo acontece com o livro de Ali, que me parece uma excelente realização dessa oportunidade.
 $(BR)
 $(BR)
 Andrei Alexandrescu$(BR)
-San Francisco, $(I May 2015)
+São Francisco, $(I Maio de 2015)
 )
 
 )
 
 Macros:
-    SUBTITLE = Foreword by Andrei Alexandrescu
+    SUBTITLE = Prefácio por Andrei Alexandrescu
     DESCRIPTION=
     KEYWORDS=
