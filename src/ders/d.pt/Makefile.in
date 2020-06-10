@@ -7,6 +7,7 @@ DERS_D_BOLUMLER= \
   foreword2.d \
   preface.d \
   hello_world.d \
+  writeln.d \
 
 DERS_D_KAYNAK= \
   index.d \
@@ -14,6 +15,7 @@ DERS_D_KAYNAK= \
 
 COZUM_D_KAYNAK= \
   hello_world.cozum.d \
+  writeln.cozum.d \
 
 include Makefile.ders.in
 $(eval $(call derse_ozel,d.pt,Programando_em_D,portuguese))
