@@ -5,7 +5,7 @@ $(COZUM_BOLUMU writeln e write)
 $(OL
 
 $(LI
-Um forma é passar um parâmetro entre os outros:
+Uma forma é passar um parâmetro entre os outros:
 
 ---
     writeln("Hello, World!", " ", "Hello, fish!");
