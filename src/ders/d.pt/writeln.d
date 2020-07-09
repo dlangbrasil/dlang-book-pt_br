@@ -55,7 +55,7 @@ Chamar $(C writeln) sem nenhum parâmetro apenas completa a linha atual ou, se n
 )
 
 $(P
-$(IX //) $(IX comentário) Linhas que começam com $(COMMENT //) são chamados $(I linhas de comentários) ou abreviadamente $(I comentários). Um comentário não faz parte do código do programa, ou seja, não afeta o comportamento do programa. O seu único objetivo é explicar o que o código faz nessa parte em particular do programa. O público de um comentário é qualquer pessoa que possa estar lendo o código do programa posteriormente, incluindo o programador que escreveu o comentário em primeiro lugar.
+$(IX //) $(IX comentário) Linhas que começam com $(COMMENT //) são chamadas $(I linhas de comentários) ou abreviadamente $(I comentários). Um comentário não faz parte do código do programa, ou seja, não afeta o comportamento do programa. O seu único objetivo é explicar o que o código faz naquela parte em particular do programa. O público de um comentário é qualquer pessoa que possa estar lendo o código do programa posteriormente, incluindo o programador que escreveu o comentário em primeiro lugar.
 )
 
 $(PROBLEM_COK
